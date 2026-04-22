@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-const DEFAULT_DIR = path.join(process.cwd(), 'content', 'projects')
+const DEFAULT_DIR = path.join(/*turbopackIgnore: true*/ process.cwd(), 'content', 'projects')
 
 export type ProjectType = 'embedded' | 'deployed' | 'repo'
 
