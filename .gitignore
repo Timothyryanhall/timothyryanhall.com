@@ -27,3 +27,6 @@ yarn-error.log*
 
 # brainstorm session files
 .superpowers/
+
+# git worktrees
+.worktrees/
