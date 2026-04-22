@@ -59,7 +59,9 @@ Cards use real content pulled at build time — not placeholder.
 
 ### About (`/about`)
 
-**Employment timeline** — company, role, date range, key technologies. Scannable, not exhaustive. LinkedIn badge/link for full résumé.
+**Employment timeline** — company, role, date range, key technologies. Scannable, not exhaustive. LinkedIn badge/link for full résumé. Known current role: Senior Software Engineer at Bellese Technologies (Boston area).
+
+**Notable achievements** — Fulbright U.S. Student Program Alternate (Romania — Doina music transcription, classical guitar composition and performance), Yamaha Artist in-Residence Fellow (founded a community ensemble). These surface on the About page, not buried.
 
 **Short bio** — prose version of professional identity. Mentions the music side briefly; the Music page handles it fully.
 
@@ -109,7 +111,7 @@ For `embedded` projects, the MDX body exports or imports the demo component. For
 
 Serves both casual visitors and gig bookers.
 
-**Musician bio** (top of page) — 3–4 sentences. Lead with versatility: classical foundation (M.M. in classical guitar performance), but plays folk, jazz, blues, funk, country, bluegrass. Currently: keys in a funk band, B3 organ in a country band. Sings. Classical training is the foundation that enables the breadth — not the main identity.
+**Musician bio** (top of page) — 3–4 sentences. Lead with versatility: classical foundation (B.M. + M.M. in classical guitar performance, University of South Carolina), Yamaha Artist in-Residence Fellow, Fulbright alternate for a project composing and performing in Romania. Plays folk, jazz, blues, funk, country, bluegrass. Currently: keys in a funk band, B3 organ in a country band. Sings. Classical training is the foundation that enables the breadth — not the main identity.
 
 **Playlist tabs** — horizontally scrollable tab row. One tab per public YouTube playlist, auto-discovered at build time from the YouTube Data API. Sorted by most recently active (most recent video upload to that playlist floats to the top). Playlist names come directly from YouTube — no manual labeling needed.
 
