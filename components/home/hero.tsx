@@ -12,9 +12,11 @@ export function Hero() {
           Timothy Hall
         </h1>
         <p className="mb-10 max-w-xl text-base leading-relaxed text-white/50">
-          Senior software engineer at Bellese Technologies in Boston. I build
-          thoughtful, well-crafted software — and I approach every problem the
-          same way: learn everything, commit to nothing too early, ship often.
+          I&apos;m a Senior Software Engineer with experience across backend engineering,
+          platform and cloud systems, and automation. I&apos;ve worked across backend,
+          full-stack, and DevOps contexts in telecommunications, healthcare, and
+          insurance, in both the U.S. and Germany — which has given me a broad
+          perspective on how systems fit together across teams and environments.
         </p>
         <div className="flex flex-wrap gap-4">
           <Button render={<Link href="/projects" />}>View Projects</Button>
