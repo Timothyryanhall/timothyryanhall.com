@@ -7,11 +7,6 @@ export interface WorkEntry {
   tech: string[]
 }
 
-export interface Achievement {
-  title: string
-  description: string
-}
-
 export const workHistory: WorkEntry[] = [
   {
     company: 'Bellese Technologies',
@@ -21,17 +16,5 @@ export const workHistory: WorkEntry[] = [
     location: 'Boston, MA',
     tech: ['React', 'TypeScript', 'Node.js'],
   },
-  // Add more entries as you fill them in from LinkedIn
-]
-
-export const achievements: Achievement[] = [
-  {
-    title: 'Yamaha Artist in-Residence Fellow',
-    description: 'Founded and directed a community ensemble.',
-  },
-  {
-    title: 'Fulbright U.S. Student Program Alternate',
-    description:
-      'Proposed project: transcribing Doina music, composing for classical guitar, and performing in Romania.',
-  },
+  // Add more entries from LinkedIn
 ]
