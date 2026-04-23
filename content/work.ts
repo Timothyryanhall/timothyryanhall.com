@@ -11,7 +11,7 @@ export const workHistory: WorkEntry[] = [
   {
     company: 'Bellese Technologies',
     role: 'Senior Software Engineer & Platform Engineer',
-    start: 'Oct 2022',
+    start: 'Mar 2023',
     end: 'Present',
     location: 'Boston, MA',
     tech: ['Terraform', 'Python', 'AWS', 'Java', 'Spring Boot', 'Jenkins', 'New Relic'],
