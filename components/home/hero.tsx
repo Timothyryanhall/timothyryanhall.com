@@ -8,10 +8,10 @@ export function Hero() {
         <p className="mb-4 text-xs font-bold uppercase tracking-[0.25em] text-accent">
           Software Engineer
         </p>
-        <h1 className="mb-6 text-5xl font-light tracking-tight text-white sm:text-7xl">
+        <h1 className="mb-6 text-5xl font-light tracking-tight text-foreground sm:text-7xl">
           Timothy Hall
         </h1>
-        <p className="mb-10 max-w-xl text-base leading-relaxed text-white/50">
+        <p className="mb-10 max-w-xl text-base leading-relaxed text-muted-foreground">
           Senior software engineer with experience across backend, full stack, and DevOps
           roles in telecommunications, healthcare, and insurance in both the US and Germany.
           My work spans cloud applications, infrastructure automation, security and

@@ -32,26 +32,25 @@
   --font-sans: var(--font-geist-sans), system-ui, sans-serif;
 }
 
-/* Single dark theme — always dark */
 :root {
-  --background: oklch(0.24 0.005 70);  /* dark warm charcoal */
-  --foreground: oklch(0.9 0 0);        /* soft off-white */
-  --card: oklch(0.29 0.005 70);
-  --card-foreground: oklch(0.9 0 0);
-  --popover: oklch(0.29 0.005 70);
-  --popover-foreground: oklch(0.9 0 0);
-  --primary: oklch(0.68 0.1 220);      /* muted slate-blue */
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.33 0.005 70);
-  --secondary-foreground: oklch(0.9 0 0);
-  --muted: oklch(0.29 0.005 70);
-  --muted-foreground: oklch(0.62 0 0);
-  --accent: oklch(0.68 0.1 220);       /* muted slate-blue */
-  --accent-foreground: oklch(0.98 0 0);
+  --background: oklch(0.97 0.012 80);      /* warm linen/cream */
+  --foreground: oklch(0.22 0.02 55);       /* dark bark/soil brown */
+  --card: oklch(0.93 0.015 80);            /* parchment */
+  --card-foreground: oklch(0.22 0.02 55);
+  --popover: oklch(0.93 0.015 80);
+  --popover-foreground: oklch(0.22 0.02 55);
+  --primary: oklch(0.42 0.1 145);          /* forest green */
+  --primary-foreground: oklch(0.97 0.008 80);
+  --secondary: oklch(0.90 0.018 80);       /* warm stone */
+  --secondary-foreground: oklch(0.3 0.02 55);
+  --muted: oklch(0.93 0.012 80);
+  --muted-foreground: oklch(0.52 0.018 70); /* mid earth tone */
+  --accent: oklch(0.42 0.1 145);           /* forest green */
+  --accent-foreground: oklch(0.97 0.008 80);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.34 0.005 70);
-  --input: oklch(0.34 0.005 70);
-  --ring: oklch(0.68 0.1 220);
+  --border: oklch(0.87 0.018 80);          /* warm tan */
+  --input: oklch(0.87 0.018 80);
+  --ring: oklch(0.42 0.1 145);
   --radius: 0.375rem;
 }
 

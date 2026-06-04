@@ -64,17 +64,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={geist.variable}>
-      <body className="bg-background text-white antialiased">
+      <body className="bg-background text-foreground antialiased">
         <Nav />
         <main>{children}</main>
-        <footer className="border-t border-white/5 px-6 py-8">
+        <footer className="border-t border-border px-6 py-8">
           <div className="mx-auto flex max-w-5xl items-center gap-6">
             <a
               href="https://github.com/timothyryanhall"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
-              className="text-white/30 transition-colors hover:text-white/60"
+              className="text-muted-foreground transition-colors hover:text-foreground"
             >
               <GithubIcon />
             </a>
@@ -83,7 +83,7 @@ export default function RootLayout({
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="text-white/30 transition-colors hover:text-white/60"
+              className="text-muted-foreground transition-colors hover:text-foreground"
             >
               <LinkedinIcon />
             </a>

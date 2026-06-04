@@ -34,11 +34,11 @@ export function Nav() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/5 bg-background/90 backdrop-blur-sm">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/90 backdrop-blur-sm">
       <nav className="mx-auto flex h-14 max-w-5xl items-center justify-between px-6">
         <Link
           href="/"
-          className="text-sm font-bold uppercase tracking-widest text-white"
+          className="text-sm font-bold uppercase tracking-widest text-foreground"
         >
           Timothy Hall
         </Link>
@@ -51,8 +51,8 @@ export function Nav() {
               href={href}
               className={`text-sm transition-colors ${
                 pathname.startsWith(href)
-                  ? 'text-white'
-                  : 'text-white/40 hover:text-white/80'
+                  ? 'text-foreground'
+                  : 'text-muted-foreground hover:text-foreground'
               }`}
             >
               {label}
@@ -63,7 +63,7 @@ export function Nav() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="text-white/40 transition-colors hover:text-white/80"
+            className="text-muted-foreground transition-colors hover:text-foreground"
           >
             <LinkedinIcon />
           </a>
@@ -76,17 +76,17 @@ export function Nav() {
           aria-label="Toggle menu"
         >
           <span
-            className={`block h-px w-5 bg-white/60 transition-transform ${
+            className={`block h-px w-5 bg-foreground/60 transition-transform ${
               open ? 'translate-y-2 rotate-45' : ''
             }`}
           />
           <span
-            className={`block h-px w-5 bg-white/60 transition-opacity ${
+            className={`block h-px w-5 bg-foreground/60 transition-opacity ${
               open ? 'opacity-0' : ''
             }`}
           />
           <span
-            className={`block h-px w-5 bg-white/60 transition-transform ${
+            className={`block h-px w-5 bg-foreground/60 transition-transform ${
               open ? '-translate-y-2 -rotate-45' : ''
             }`}
           />
@@ -95,13 +95,13 @@ export function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="border-t border-white/5 bg-background/95 px-6 py-4 md:hidden">
+        <div className="border-t border-border bg-background/95 px-6 py-4 md:hidden">
           {NAV_LINKS.map(({ href, label }) => (
             <Link
               key={href}
               href={href}
               onClick={() => setOpen(false)}
-              className="block py-3 text-sm text-white/60 hover:text-white"
+              className="block py-3 text-sm text-muted-foreground hover:text-foreground"
             >
               {label}
             </Link>
@@ -110,7 +110,7 @@ export function Nav() {
             href="https://www.linkedin.com/in/timothyryanhall/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 py-3 text-sm text-white/60 hover:text-white"
+            className="flex items-center gap-2 py-3 text-sm text-muted-foreground hover:text-foreground"
           >
             <LinkedinIcon />
             LinkedIn
