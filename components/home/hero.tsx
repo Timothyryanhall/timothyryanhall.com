@@ -12,11 +12,10 @@ export function Hero() {
           Timothy Hall
         </h1>
         <p className="mb-10 max-w-xl text-base leading-relaxed text-white/50">
-          I&apos;m a Senior Software Engineer with experience across backend engineering,
-          platform and cloud systems, and automation. I&apos;ve worked across backend,
-          full-stack, and DevOps contexts in telecommunications, healthcare, and
-          insurance, in both the U.S. and Germany — which has given me a broad
-          perspective on how systems fit together across teams and environments.
+          Senior software engineer with experience across backend, full stack, and DevOps
+          roles in telecommunications, healthcare, and insurance in both the US and Germany.
+          My work spans cloud applications, infrastructure automation, security and
+          compliance, and operational tooling.
         </p>
         <div className="flex flex-wrap gap-4">
           <Button render={<Link href="/projects" />}>View Projects</Button>

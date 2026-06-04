@@ -8,10 +8,7 @@ export default function ProjectsPage() {
   return (
     <div className="min-h-screen pt-14">
       <div className="mx-auto max-w-5xl px-6 py-16">
-        <p className="mb-2 text-xs font-bold uppercase tracking-[0.25em] text-accent">
-          Projects
-        </p>
-        <h1 className="mb-8 text-4xl font-light text-white">What I&apos;m Building</h1>
+        <h1 className="mb-8 text-4xl font-light text-white">Projects</h1>
 
         {projects.length === 0 ? (
           <EmptyState />
