@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { hostname: 'i.ytimg.com' },
       { hostname: 'img.youtube.com' },
-      { hostname: 'api.microlink.io' },
     ],
   },
 };

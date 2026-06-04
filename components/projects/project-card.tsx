@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { ExternalLink, Code2 } from 'lucide-react'
@@ -16,25 +15,8 @@ export function ProjectCard({ project, onLaunch }: ProjectCardProps) {
     repo: 'Repo',
   }
 
-  const screenshotUrl = project.url
-    ? `https://api.microlink.io/?url=${encodeURIComponent(project.url)}&screenshot=true&meta=false&embed=screenshot.url`
-    : null
-
   return (
-    <div className="flex flex-col rounded-lg border border-white/5 bg-white/[0.02] overflow-hidden">
-      {screenshotUrl && (
-        <div className="relative w-full aspect-[16/9] bg-white/5">
-          <Image
-            src={screenshotUrl}
-            alt={`Screenshot of ${project.title}`}
-            fill
-            className="object-cover object-top"
-            unoptimized
-          />
-        </div>
-      )}
-
-      <div className="flex flex-col flex-1 p-6">
+    <div className="flex flex-col rounded-lg border border-white/5 bg-white/[0.02] p-6">
         <div className="mb-3 flex items-start justify-between gap-2">
           <div>
             <span className="mb-1 block text-[10px] font-bold uppercase tracking-[0.2em] text-accent">
@@ -100,7 +82,6 @@ export function ProjectCard({ project, onLaunch }: ProjectCardProps) {
             </Button>
           )}
         </div>
-      </div>
     </div>
   )
 }
